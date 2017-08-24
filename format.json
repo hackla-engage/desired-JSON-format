@@ -1,0 +1,30 @@
+{
+  "organization": {
+    "id": "1",
+    "name": "City Council",
+    "city": "Santa Monica"
+  },
+  "meeting_date": "milliseconds since epoch UTC",
+  "": "",
+  "special_agenda_items": [
+    {
+      "title": "long title"
+    }
+  ],
+  "consent_calendar": [
+    {
+      "position": "A",
+      "title": "short title e.g. Update to the Water Shortage Response Plan",
+      "staff_report": {
+        "departments": ["Public Works"],
+        "sponsors": ["Jane Doe"],
+        "recommended_actions": ["Award RFP...", "Authorize..."],
+        "body": {
+          "summary": "body summary",
+          "background": "body background",
+          "discussion": "body argument"
+        }
+      }
+    }
+  ]
+}
