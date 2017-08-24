@@ -21,8 +21,24 @@
         "body": {
           "summary": "body summary",
           "background": "body background",
-          "discussion": "body argument"
+          "other": "body argument, analysis, etc."
         }
+      }
+    }
+  ],
+  "study_sessions": [],
+  "continued_items": [],
+  "administrative_proceedings": [
+    {
+      "position": "A",
+      "title": "short title",
+      "departments": ["Development Review 1"],
+      "sponsors": [""],
+      "recommended_actions": [""],
+      "body": {
+        "summary": "",
+        "background": "",
+        "other": "body argument, analysis, etc."
       }
     }
   ]
