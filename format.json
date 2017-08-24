@@ -5,7 +5,6 @@
     "city": "Santa Monica"
   },
   "meeting_date": "milliseconds since epoch UTC",
-  "": "",
   "special_agenda_items": [
     {
       "title": "long title"
