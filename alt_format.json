@@ -2,25 +2,20 @@
   "organization": {
     "id": "1",
     "name": "City Council",
-    "city": "Santa Monica"
+    "city": "Santa Monica",
+    "members": [
+      {"name": "Gerry Government", "phone": "123-111-1111", "email": "gerry@smov.gov"}
+    ]
   },
   "meeting_date": "milliseconds since epoch UTC",
-  "special_agenda_items": [
+  "items": [
     {
-      "title": "long title"
-    }
-  ],
-  "agenda_sections": [
-    {
-      "section": "Consent Calendar",
-      "items": [
-        {
-          "position": "A",
           "title": "short title e.g. Update to the Water Shortage Response Plan",
+          "tags": [ "TagA", "TagB", "etc..." ],
           "staff_report": {
-            "departments": ["Public Works"],
-            "sponsors": ["Jane Doe"],
-            "recommended_actions": ["Award RFP...", "Authorize..."],
+            "departments": [ "Public Works" ],
+            "sponsors": [ "Jane Doe" ],
+            "recommended_actions": [ "Award RFP...", "Authorize..." ],
             "body": {
               "summary": "body summary",
               "background": "body background",
@@ -28,15 +23,5 @@
             }
           }
         }
-      ]
-    },
-    {
-      "section": "Administrative Proceedings",
-      "items": [
-        {
-          "...": "..."
-        }
-      ]
-    }
-  ]
+    ]
 }
