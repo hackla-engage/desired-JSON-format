@@ -8,8 +8,10 @@
     ]
   },
   "meeting_date": "milliseconds since epoch UTC",
+  "id": 3,
   "items": [
     {
+          "id": "22",
           "title": "short title e.g. Update to the Water Shortage Response Plan",
           "tags": [ "TagA", "TagB", "etc..." ],
           "staff_report": {
