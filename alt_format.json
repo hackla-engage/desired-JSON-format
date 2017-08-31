@@ -12,6 +12,7 @@
   "items": [
     {
           "id": "22",
+          "date": "milliseconds since epoch - for time during day when the item happened or will happen"
           "title": "short title e.g. Update to the Water Shortage Response Plan",
           "tags": [ "TagA", "TagB", "etc..." ],
           "staff_report": {
